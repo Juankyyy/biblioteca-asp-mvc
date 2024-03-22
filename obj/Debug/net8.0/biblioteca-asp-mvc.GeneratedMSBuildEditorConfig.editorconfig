@@ -9,39 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = biblioteca_asp_mvc
 build_property.RootNamespace = biblioteca_asp_mvc
-build_property.ProjectDir = /home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/
+build_property.ProjectDir = C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc
+build_property.MSBuildProjectDirectory = C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/Dashboard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvSW5kZXguY3NodG1s
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-026/Desktop/Juanky/biblioteca-asp-mvc/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-92mcozje8y
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jg8dcyqlmz

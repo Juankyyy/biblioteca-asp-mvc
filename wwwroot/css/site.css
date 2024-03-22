@@ -4,17 +4,6 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
-  background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*4-H9L_CZAEqNiZmmfL9dzQ.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.table-dark {
-  --bs-table-bg: #212529bf;
-  --bs-table-striped-bg: #2c3034b3;
-}
-
 .route {
   display: flex;
   justify-content: flex-end;
