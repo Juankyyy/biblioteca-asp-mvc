@@ -1,0 +1,24 @@
+@{
+    ViewBag.Title = "Información del libro";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "libros.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Usuarios" asp-action="Index">Inicio</a>
+    <p>Información del  libro</p>
+</div>
+
+<section class="main-show">
+    <div class="info">
+        <p><strong>Título: </strong>Cien  años de soledad</p>
+        <p><strong>Autor: </strong>Gabriel  García Márquez</p>
+        <p><strong>Genero: </strong>Ficción</p>
+        <p><strong>Año de Publicación: </strong>1967</p>
+        <p><strong>Copias: </strong>5</p>
+    </div>
+    
+    <div class="usuarios">
+        <a class="btn btn-primary" asp-area="" asp-controller="Libros" asp-action="Index">Volver</a>
+    </div>
+</section>
