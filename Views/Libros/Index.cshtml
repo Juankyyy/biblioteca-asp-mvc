@@ -1,0 +1,55 @@
+@{
+    ViewBag.Title = "Libros";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "libros.svg";
+}
+
+<section class="main container mt-5">
+    <div class="route">
+        <a asp-area="" asp-controller="Dashboard" asp-action="Index">Inicio</a>
+        <p>Gestión de Libros</p>
+    </div>
+
+    <div class="title">
+        <h2>Libros</h2>
+    </div>
+
+    <div class="menu d-flex justify-content-between align-items-center mt-3">
+        <div class="row align-items-center mt-2 mb-2">
+            <div class="col-auto">
+                <label for="search" class="col-form-label">Buscar: </label>
+            </div>
+
+            <div class="col-auto">
+                <input type="text" id="search" class="form-control" placeholder="Título">
+            </div>
+        </div>
+        <a class="btn btn-success" asp-area="" asp-controller="Libros" asp-action="Create">Agegar nuevo libro</a>
+
+    </div>
+
+    <table class="table table-dark table-striped mt-3">
+        <thead>
+            <td>Título</td>
+            <td>Autor</td>
+            <td>Género</td>
+            <td>Año de Publicación</td>
+            <td>Copias Disponibles</td>
+            <td>Acciones</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cien años de soledad</td>
+                <td>Gabriel García Márquez</td>
+                <td>Ficción</td>
+                <td>1967</td>
+                <td>5</td>
+                <td>
+                    <a class="btn btn-sm btn-info" asp-area="" asp-controller="Libros" asp-action="Show">Detalles</a>
+                    <a class="btn btn-sm btn-warning" asp-area="" asp-controller="Libros" asp-action="Edit">Editar</a>
+                    <a class="btn btn-sm btn-danger" asp-area="" asp-controller="Libros" asp-action="Delete">Eliminar</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>

@@ -1,0 +1,24 @@
+@{
+    ViewBag.Title = "Mostrar Usuario";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "usuarios.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Usuarios" asp-action="Index">Inicio</a>
+    <p>Mostrar Usuario</p>
+</div>
+
+<section class="main-show">
+    <div class="info">
+        <p><strong>Nombres: </strong>Alejo</p>
+        <p><strong>Apellidos: </strong>Ruiz</p>
+        <p><strong>Direccion: </strong>Calle 22 # 22-B 22</p>
+        <p><strong>Teléfono: </strong>305 784 2312</p>
+        <p><strong>Email: </strong>alejo@gmail.com</p>
+    </div>
+    
+    <div class="usuarios">
+        <a class="btn btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Index">Volver</a>
+    </div>
+</section>

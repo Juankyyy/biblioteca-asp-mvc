@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/@ViewData["Css"]" asp-append-version="true" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon/@ViewData["Favicon"]" />
 </head>
 <body>
     <header>
@@ -31,11 +32,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Prestamos</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Prestamos" asp-action="Index">Prestamos</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Historial</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Historial" asp-action="Index">Historial</a>
                         </li>
                     </ul>
                 </div>

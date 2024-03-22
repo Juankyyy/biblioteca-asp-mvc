@@ -1,7 +1,5 @@
-
 @{
     ViewBag.Title = "Usuarios";
-    ViewBag.Css = "usuarios.css";
     ViewBag.Favicon = "usuarios.svg";
 }
 
@@ -22,7 +20,7 @@
             </div>
 
             <div class="col-auto">
-                <input type="text" id="search" class="form-control">
+                <input type="text" id="search" class="form-control" placeholder="Usuario">
             </div>
         </div>
         <a class="btn btn-success" asp-area="" asp-controller="Usuarios" asp-action="Create">Crear nuevo Usuario</a>
@@ -40,11 +38,35 @@
         </thead>
         <tbody>
             <tr>
-                <td>Awd</td>
-                <td>Dawd</td>
+                <td>Alejo</td>
+                <td>Ruiz</td>
+                <td>Calle 22 # 22-B 22</td>
+                <td>305 784 2312</td>
+                <td>alejo@gmail.com</td>
+                <td>
+                    <a class="btn btn-sm btn-info" asp-area="" asp-controller="Usuarios" asp-action="Show">Detalles</a>
+                    <a class="btn btn-sm btn-warning" asp-area="" asp-controller="Usuarios" asp-action="Edit">Editar</a>
+                    <a class="btn btn-sm btn-danger" asp-area="" asp-controller="Usuarios" asp-action="Delete">Eliminar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Juanky</td>
+                <td>Herrera</td>
                 <td>Calle 11 # 11-A 11</td>
-                <td>1234567890</td>
-                <td>awdawd@gmail.com</td>
+                <td>317 561 1223</td>
+                <td>juanky@gmail.com</td>
+                <td>
+                    <a class="btn btn-sm btn-info" asp-area="" asp-controller="Usuarios" asp-action="Show">Detalles</a>
+                    <a class="btn btn-sm btn-warning" asp-area="" asp-controller="Usuarios" asp-action="Edit">Editar</a>
+                    <a class="btn btn-sm btn-danger" asp-area="" asp-controller="Usuarios" asp-action="Delete">Eliminar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Alcázar</td>
+                <td>Calle 40 # 10-C 7</td>
+                <td>302 741 4862</td>
+                <td>pedro@gmail.com</td>
                 <td>
                     <a class="btn btn-sm btn-info" asp-area="" asp-controller="Usuarios" asp-action="Show">Detalles</a>
                     <a class="btn btn-sm btn-warning" asp-area="" asp-controller="Usuarios" asp-action="Edit">Editar</a>

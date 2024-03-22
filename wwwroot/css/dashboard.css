@@ -24,3 +24,9 @@ body {
         border-radius: 10px;
     }
 }
+
+.down {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

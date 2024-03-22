@@ -1,0 +1,51 @@
+@{
+    ViewBag.Title = "Usuarios";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "usuarios.svg";
+}
+
+<section class="main container mt-5">
+    <div class="route">
+        <a asp-area="" asp-controller="Dashboard" asp-action="Index">Inicio</a>
+        <p>Historial de Prestamos</p>
+    </div>
+
+    <div class="title">
+        <h2>Historial de Prestamos</h2>
+    </div>
+
+    <div class="menu d-flex justify-content-between align-items-center mt-3">
+        <div class="row align-items-center mt-2 mb-2">
+            <div class="col-auto">
+                <label for="search" class="col-form-label">Buscar: </label>
+            </div>
+
+            <div class="col-auto">
+                <input type="text" id="search" class="form-control" placeholder="Usuario">
+            </div>
+        </div>
+        <a class="btn btn-success" asp-area="" asp-controller="Usuarios" asp-action="Create">Crear nuevo Informe</a>
+
+    </div>
+
+    <table class="table table-dark table-striped mt-3">
+        <thead>
+            <td>Usuario</td>
+            <td>Libro</td>
+            <td>Fecha de Devolucion</td>
+            <td>Acciones</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pedro</td>
+                <td>El cuervo</td>
+                <td>04/04/2024</td>
+                <td>
+                    <a class="btn btn-sm btn-info" asp-area="" asp-controller="Historial" asp-action="Show">Detalles</a>
+                    <a class="btn btn-sm btn-warning" asp-area="" asp-controller="Historial" asp-action="Edit">Editar</a>
+                    <a class="btn btn-sm btn-danger" asp-area="" asp-controller="Historial" asp-action="Delete">Eliminar</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>

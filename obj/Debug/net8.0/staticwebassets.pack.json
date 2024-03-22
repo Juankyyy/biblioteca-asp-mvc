@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\favicon\\dashboard.svg",
+      "PackagePath": "staticwebassets\\favicon\\dashboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\favicon\\historial.svg",
+      "PackagePath": "staticwebassets\\favicon\\historial.svg"
+    },
+    {
+      "Id": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\favicon\\libros.svg",
+      "PackagePath": "staticwebassets\\favicon\\libros.svg"
+    },
+    {
+      "Id": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\favicon\\prestamos.svg",
+      "PackagePath": "staticwebassets\\favicon\\prestamos.svg"
+    },
+    {
+      "Id": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\favicon\\usuarios.svg",
+      "PackagePath": "staticwebassets\\favicon\\usuarios.svg"
+    },
+    {
       "Id": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

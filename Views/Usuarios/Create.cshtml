@@ -1,0 +1,41 @@
+@{
+    ViewBag.Title = "Crear Usuario";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "usuarios.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Usuarios" asp-action="Index">Inicio</a>
+    <p>Crear nuevo usuario</p>
+</div>
+
+<section class="main-show">
+    <form class="form">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombres:</label>
+            <input type="text" class="form-control" id="name" autofocus>
+        </div>
+
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Apellidos:</label>
+            <input type="text" class="form-control" id="lastname">
+        </div>
+        
+        <div class="mb-3">
+            <label for="address" class="form-label">Dirección:</label>
+            <input type="text" class="form-control" id="address">
+        </div>
+
+        <div class="mb-3">
+            <label for="tel" class="form-label">Teléfono:</label>
+            <input type="number" class="form-control" id="tel">
+        </div>
+
+        <div class="mb-3 w-100 ">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control w-100" id="email">
+        </div>
+    </form>
+
+    <a class="btn btn-success" asp-area="" asp-controller="Usuarios" asp-action="Index">Crear usuario</a>
+</section>
