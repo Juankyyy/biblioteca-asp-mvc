@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/biblioteca-asp-mvc.props" />
+</Project>

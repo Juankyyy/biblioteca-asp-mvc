@@ -1,0 +1,17 @@
+@{
+    ViewBag.Title = "Dashboard";
+    ViewBag.Css = "dashboard.css";
+    ViewBag.Favicon = "dashboard.svg";
+}
+
+<section class="main">
+    <div class="title-content">
+        <h1 class="title">Alejandría's Library</h1>
+    </div>
+
+    <div class="btns">
+        <a class="btn btn-primary" asp-area=""  asp-controller="Productos" asp-action="Index">Gestion de prestamos</a>
+        <a class="btn btn-primary m-2" asp-area=""  asp-controller="Register" asp-action="Index">Registrarte</a>
+        <a class="btn btn-primary" asp-area=""  asp-controller="Usuarios" asp-action="Index">Gestion de usuarios</a>
+    </div>
+</section>
