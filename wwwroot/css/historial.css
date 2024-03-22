@@ -1,0 +1,28 @@
+.main-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: calc(100dvh - 170px);
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    border-radius: 6px;
+    padding: 15px;
+    width: max-content;
+    padding: 20px 100px;
+    height: max-content;
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 10px #0000002f;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

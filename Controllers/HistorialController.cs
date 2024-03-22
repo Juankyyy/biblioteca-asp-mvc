@@ -8,5 +8,10 @@ namespace Mvc.Controllers
         {
             return View();
         }
+
+        public IActionResult Informe()
+        {
+            return View();
+        }
     }
 }
