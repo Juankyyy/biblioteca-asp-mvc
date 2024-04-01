@@ -8,12 +8,7 @@ namespace Mvc.Controllers
         {
             return View();
         }
-<<<<<<< Updated upstream
-                public IActionResult Create()
-=======
-        
         public IActionResult Create()
->>>>>>> Stashed changes
         {
             return View();
         }
