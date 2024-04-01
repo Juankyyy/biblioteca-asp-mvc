@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UBLJCR9jRHa8QeNPgeGNaaRU/mE4HfLSNuONZ8QfpLU=",
+  "Hash": "sDkisKhXkxjxn2HFfKBq68Mb74+5fhCzN2U/BDgtgck=",
   "Source": "biblioteca-asp-mvc",
   "BasePath": "_content/biblioteca-asp-mvc",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
+      "Identity": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\css\\historial.css",
+      "SourceId": "biblioteca-asp-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\",
+      "BasePath": "_content/biblioteca-asp-mvc",
+      "RelativePath": "css/historial.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\historial.css"
     },
     {
       "Identity": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\wwwroot\\css\\site.css",
