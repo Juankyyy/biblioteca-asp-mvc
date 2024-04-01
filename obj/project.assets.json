@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Juanky\\.nuget\\packages\\": {}
+    "/home/riwip5-031/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\biblioteca-asp-mvc.csproj",
+      "projectUniqueName": "/home/riwip5-031/Desktop/Juanky/biblioteca-asp-mvc/biblioteca-asp-mvc.csproj",
       "projectName": "biblioteca-asp-mvc",
-      "projectPath": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\biblioteca-asp-mvc.csproj",
-      "packagesPath": "C:\\Users\\Juanky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\biblioteca-asp-mvc\\obj\\",
+      "projectPath": "/home/riwip5-031/Desktop/Juanky/biblioteca-asp-mvc/biblioteca-asp-mvc.csproj",
+      "packagesPath": "/home/riwip5-031/.nuget/packages/",
+      "outputPath": "/home/riwip5-031/Desktop/Juanky/biblioteca-asp-mvc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Juanky\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/riwip5-031/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

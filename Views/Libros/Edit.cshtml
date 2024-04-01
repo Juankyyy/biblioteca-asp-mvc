@@ -1,0 +1,41 @@
+@{
+    ViewBag.Title = "Editar libro";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "libros.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Usuarios" asp-action="Index">Inicio</a>
+    <p>Editar usuario</p>
+</div>
+
+<section class="main-show">
+    <form class="form">
+        <div class="mb-3 w-100">
+            <label for="name" class="form-label">Título:</label>
+            <input type="text" class="form-control w-100" id="name" autofocus value="Cien años de soledad">
+        </div>
+
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Autor:</label>
+            <input type="text" class="form-control" id="lastname" value="Gabriel García Márquez">
+        </div>
+        
+        <div class="mb-3">
+            <label for="address" class="form-label">Género:</label>
+            <input type="text" class="form-control" id="address" value="Ficción">
+        </div>
+
+        <div class="mb-3">
+            <label for="tel" class="form-label">Año de publicación:</label>
+            <input type="date" class="form-control" id="tel" value="1967">
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Copias:</label>
+            <input type="number" class="form-control" id="email" value="5">
+        </div>
+    </form>
+
+    <a class="btn btn-success" asp-area="" asp-controller="Libros" asp-action="Index">Confirmar</a>
+</section>
