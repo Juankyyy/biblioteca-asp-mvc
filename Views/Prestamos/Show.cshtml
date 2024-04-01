@@ -1,0 +1,24 @@
+@{
+    ViewBag.Title = "Mostrar Prestamo";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "prestamos.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Usuarios" asp-action="Index">Inicio</a>
+    <p>Mostrar Usuario</p>
+</div>
+
+<section class="main-show">
+    <div class="info">
+        <p><strong>Bibliotecario: </strong>Robin</p>
+        <p><strong>Usuario: </strong>Pedro</p>
+        <p><strong>Libro: </strong>El Cuervo</p>
+        <p><strong>Fecha de Prestamo: </strong>20/03/2024</p>
+        <p><strong>Fecha de Devolución: </strong>04/04&/2004</p>
+    </div>
+    
+    <div class="usuarios">
+        <a class="btn btn-primary" asp-area="" asp-controller="Prestamos" asp-action="Index">Volver</a>
+    </div>
+</section>

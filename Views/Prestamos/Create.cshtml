@@ -1,0 +1,41 @@
+@{
+    ViewBag.Title = "Crear Prestamo";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "prestamos.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Prestamos" asp-action="Index">Inicio</a>
+    <p>Crear prestamo</p>
+</div>
+
+<section class="main-show">
+    <form class="form">
+        <div class="mb-3">
+            <label for="name" class="form-label">Bibliotecario:</label>
+            <input type="text" class="form-control" id="name" autofocus>
+        </div>
+
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Usuario:</label>
+            <input type="text" class="form-control" id="lastname">
+        </div>
+        
+        <div class="mb-3">
+            <label for="address" class="form-label">Libro:</label>
+            <input type="text" class="form-control" id="address">
+        </div>
+
+        <div class="mb-3">
+            <label for="tel" class="form-label">Fecha de prestamo:</label>
+            <input type="date" class="form-control" id="tel">
+        </div>
+
+        <div class="mb-3 m-auto">
+            <label for="email" class="form-label">Fecha de devolucion:</label>
+            <input type="date" class="form-control" id="email">
+        </div>
+    </form>
+
+    <a class="btn btn-success" asp-area="" asp-controller="Prestamos" asp-action="Index">Crear Prestamo</a>
+</section>

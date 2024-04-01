@@ -91,3 +91,14 @@ C:/Users/Juanky/Documents/Code/CSharp/ASP/biblioteca-asp-mvc/obj/Debug/net8.0/re
 /home/riwip5-031/Desktop/Juanky/biblioteca-asp-mvc/obj/Debug/net8.0/biblioteca-asp-mvc.pdb
 /home/riwip5-031/Desktop/Juanky/biblioteca-asp-mvc/obj/Debug/net8.0/biblioteca-asp-mvc.genruntimeconfig.cache
 /home/riwip5-031/Desktop/Juanky/biblioteca-asp-mvc/obj/Debug/net8.0/ref/biblioteca-asp-mvc.dll
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.AssemblyInfoInputs.cache
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.AssemblyInfo.cs
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.csproj.CoreCompileInputs.cache
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.RazorAssemblyInfo.cache
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.RazorAssemblyInfo.cs
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.sourcelink.json
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.dll
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\refint\biblioteca-asp-mvc.dll
+C:\Users\Juanky\Documents\Code\CSharp\ASP\biblioteca-asp-mvc\obj\Debug\net8.0\biblioteca-asp-mvc.pdb
